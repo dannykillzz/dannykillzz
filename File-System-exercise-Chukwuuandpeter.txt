@@ -1,0 +1,18 @@
+1.Mr Peter and Mr chukwu are both the new hired software engineers of
+ Martins Credit Union.
+2. They’ll be working on ERP and SAP applications project which require 18G disk
+ space BUT only needed 10G ext4 file system for now while the remaining 
+8G should be reserved for future file system expansion.
+3. As their assigned Linux Engineer for this project,
+ you’re required to work with them to provision this environment
+ and make sure the file system is mounted on /apps
+4.They’ll also need to have Linux accounts created
+ for them to be able to use this system. Their username will be peter and chukwu
+5. Create them a group and call it software_dev. Add them both
+ into software_dev group and provision them a sudo access.
+6. Upon completion of their new filesystem, make sure you 
+grant Mr chukwu and Mr peter an access to the newly created filesytem. 
+The two users must be able to write into this environment using 
+their regular account NOT ROOT.
+
+Note: Feel free to name the volume group as software_vg AND Logical volume as software_lv
