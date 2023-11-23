@@ -1,0 +1,10 @@
+HOME-WORK-09-02-2023
+##########################
+Go to your home directory ON YOUR SERVER1
+Create  direcctory Julius
+Create a file Juliusfile
+Go to your home directory ON YOUR SERVER2
+Create Miracle directory
+Go to YOUR SERVER1 and
+Copy both Julius and Juliusfile to Miracle directory on your SERVER2 using RSYNC
+Take a screenshot and send it to smnumericconsult@gmail.com
