@@ -1,0 +1,11 @@
+Go to your home diretory
+create larry_index
+-Go to usr
+create larry
+
+Link larry_index in your home home directory to the larry directory in /usr
+
+Question2
+#################
+- Create a file linktest in /usr/biodun/
+- Once created Link the file linktest to Wande (the wande you have in your home directory)
