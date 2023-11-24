@@ -1,0 +1,7 @@
+1. Login to your first server
+hostnamectl set-hostname automation (to rename hostname)
+Reboot
+
+2. Login to your Second server (to rename hostname)
+hostnamectl set-hostname qa_server (to rename hostname)
+Reboot
