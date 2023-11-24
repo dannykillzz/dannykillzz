@@ -1,0 +1,39 @@
+FILE SYSTEM EXPANSION
+SITUATION 1
+###############
+WHEN YOU HAVE AVAILABLE DISK SPACE FREE SPACE TO USE
+
+SITUATION 2
+###############
+WHEN YOU HAVE TO REQUEST FOR ADDITIONAL DISK
+
+
+SITUATION 1
+###############
+WHEN YOU HAVE AVAILABLE DISK SPACE FREE SPACE TO USE
+================
+
+1.File system Expansion
+lvextend -L +1G /dev/mapper/ubuntu--vg-ubuntu--lv 
+resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv (for ext4)
+
+
+SITUATION 2
+###############
+WHEN YOU HAVE TO REQUEST FOR ADDITIONAL DISK
+============
+Add the disk from oracle manager
+partition the disk
+pvcreate /dev/sdb1
+vgextend isaac_vg /dev/sdb1
+lvextend -L +11G /dev/mapper/isaac_vg-isaac--lv
+resize2fs /dev/mapper/isaac_vg-isaac--lv
+
+
+
+2 splunk stop 
+test
+start
+/opt/splunk/bin/splunk status
+
+3. top resource consumption and kill command demonstration
